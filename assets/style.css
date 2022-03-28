@@ -1,0 +1,41 @@
+* {
+    font-family: 'JetBrains Mono', monospace;
+}
+
+/*https://coolors.co/ffffff-e69f34-010100-152837-28112b*/
+
+body {
+    background-color: #152837;
+    color: #ffffff;
+}
+
+main {
+    min-height: 100vh;
+}
+
+a {
+    color: #ffffff;
+}
+
+a:hover {
+    color: #ffffff;
+}
+
+.text_detail, .link {
+    text-decoration: none;
+    color: #E69F34;
+    transition: 0.2s;
+}
+
+.link:hover {
+    color: #010100;
+    background-color: #E69F34;
+    border-radius: 4px;
+    padding: 0.1rem;
+    transition: 0.3s;
+}
+
+#profile_pic {
+    width: 25rem;
+    border-radius: 100%;
+}
