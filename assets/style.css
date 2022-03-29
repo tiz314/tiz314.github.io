@@ -35,9 +35,13 @@ a:hover {
     transition: 0.3s;
 }
 
-#profile_pic {
+#profile_pic, #profile_pic_mobile{
     width: 25rem;
     border-radius: 100%;
+}
+
+#profile_pic_mobile{
+    display: none;
 }
 
 @media only screen and (max-width: 800px) {
@@ -45,8 +49,16 @@ a:hover {
         margin-top: 4rem;
         margin-bottom: 4rem;
     }
+}
 
-    #img_col{
-        margin-top: 4rem;
+@media only screen and (max-width: 992px){
+    
+    #profile_pic{
+        display: none;
     }
-  }
+
+    #profile_pic_mobile{
+        display: inline;
+        width: 10rem;
+    }
+}
