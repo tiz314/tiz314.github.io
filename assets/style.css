@@ -39,3 +39,14 @@ a:hover {
     width: 25rem;
     border-radius: 100%;
 }
+
+@media only screen and (max-width: 800px) {
+    #main_row{
+        margin-top: 4rem;
+        margin-bottom: 4rem;
+    }
+
+    #img_col{
+        margin-top: 4rem;
+    }
+  }
