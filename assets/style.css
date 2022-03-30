@@ -44,10 +44,42 @@ a:hover {
     display: none;
 }
 
+/*typing effect*/
+
+.typed-out{
+    overflow: hidden;
+    border-right: .15em solid orange;
+    white-space: nowrap;
+    font-size: 1.6rem;
+    width: 0;
+    animation: 
+      typing 1s steps(20, end) forwards,
+      blink .8s infinite;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+@keyframes blink {
+    from { border-color: transparent }
+    to { border-color: orange; }
+}
+
+/*---*/
+
 @media only screen and (max-width: 800px) {
-    #main_row{
-        margin-top: 4rem;
-        margin-bottom: 4rem;
+    h1{
+        font-size: 1.4rem;
+    }
+
+    h4{
+        font-size: 1.2rem;
+    }
+
+    h5{
+        font-size: 1rem;
     }
 }
 
