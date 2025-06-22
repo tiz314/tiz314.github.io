@@ -5,10 +5,11 @@ permalink: /posts/
 ---
 
 <ul class="post-list">
-  {% for post in site.posts %}
-    <li>
-      <p class="post-date">{{ post.date | date: "%b %-d, %Y" }}</p>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span> –
+        <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+  
