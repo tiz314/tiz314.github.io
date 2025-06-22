@@ -3,7 +3,7 @@ title:            Tiz314
 tagline:          'CyberSec student'
 description:      'Reverse Engineering, Embedded systems and network protocols analysis'
 url:              "https://github.com/tiz314" 
-baseurl:          ""
+baseurl:          "https://tiz314.it/"
 
 author:
   name:           'Tiz314'
