@@ -1,23 +1,29 @@
-# Dependencies
-markdown:         redcarpet
-highlighter:      pygments
-
-# Permalinks
-permalink:        pretty
-relative_permalinks: true
-
 # Setup
 title:            Hyde
 tagline:          'A Jekyll theme'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
-url:              http://hyde.getpoole.com
-baseurl:          /
+description:      'A brazen two-column Jekyll theme that pairs a prominent sidebar with uncomplicated content.'
+url:              "https://your-username.github.io" # Change to your actual GitHub Pages URL
+baseurl:          "" # Leave blank for user/organization site
 
 author:
   name:           'Mark Otto'
   url:            https://twitter.com/mdo
 
-paginate:         5
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+paginate: 5
+
+# Remote theme (requires jekyll-remote-theme plugin)
+remote_theme: poole/hyde
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-remote-theme
 
 # Custom vars
 version:          2.1.0
