@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-CyberSecurity Enthusiast, CTF player @ [K!nd4SUS](https://k1nd4sus.it/)
+CyberSecurity Enthusiast, CTF player@[K!nd4SUS](https://k1nd4sus.it/)
 
 ## Latest activity
 - [CyberChallenge.IT](https://cyberchallenge.it/) 2024 & 2021
