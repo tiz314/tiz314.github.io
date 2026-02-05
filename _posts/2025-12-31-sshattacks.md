@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fighting Imbalance, Classifying SSH Honeypot Attacks
+title: "Fighting Imbalance: Classifying SSH Honeypot Attacks"
 permalink: /sshattacks
 ---
 
