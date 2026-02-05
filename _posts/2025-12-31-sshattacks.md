@@ -6,7 +6,7 @@ permalink: /sshattacks
 
 The project explores techniques to classify SSH sessions—sequences of executed commands—according to the MITRE ATT&CK framework. This work starts as an academic exercise for the Cybersecurity Engineering MSc @ PoliTo for the Machine Learning for Networking course, to see how simple Machine Learning methods behave on a non-trivial, noisy task.
 
-While not intended as a state-of-the-art benchmark, it offers interesting insights into data cleaning and model selection. The project is a collaboration between @[Tiz314](https://github.com/Tiz314) @[Rebel-Nightmare](https://github.com/Rebel-Nightmare), @[kuzeykara](https://github.com/kuzeykara), and @[emirakincy](https://github.com/emirakinci).
+While not intended as a state-of-the-art benchmark, it offers interesting insights into data cleaning and model selection. The project is a collaboration between @[Tiz314](https://github.com/Tiz314) @[Rebel-Nightmare](https://github.com/Rebel-Nightmare), @[kuzeykara](https://github.com/kuzeykara), and @[emirakincy](https://github.com/emirakinci). The full report can be read [here](https://github.com/The-SSH-Oracle/SSH-attacks-predictor).
 
 ### The Challenge: Classifying Intent
 Each SSH session contains subsets of commands that map to specific intents: **Discovery**, **Defense Evasion**, **Execution**, **Persistence**, **Impact**, or simply **Harmless** activity.
