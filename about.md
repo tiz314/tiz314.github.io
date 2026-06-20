@@ -4,7 +4,7 @@ title: About
 permalink: /about
 ---
 
-**MSc Cybersecurity Engineering student @ PoliTO | Research Fellow @ Thales Alenia Space**
+**MSc Cybersecurity Engineering student @ PoliTO / Research Fellow @ Thales Alenia Space**
 
 I bridge the gap between aerospace and cybersecurity. My research and projects focus on securing the critical systems that power our world—and the space above it. 
 
